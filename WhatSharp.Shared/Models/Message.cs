@@ -12,5 +12,4 @@ public class Message
     public User User { get; set; }
     public int ChatId { get; set; }
     public Chat Chat { get; set; }
-    public bool IsFromCurrentUser => UserId == Session.CurrentUser?.Id;
 }

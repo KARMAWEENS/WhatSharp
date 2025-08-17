@@ -7,7 +7,8 @@ public class Chat
     [Key]
     public int Id { get; set; }
 
-    public string Name { get; set; }
+    [Required, MinLength(1)]
+    public string Name { get; set; } = string.Empty;
 
     public List<Message> Messages { get; set; } = new();
     

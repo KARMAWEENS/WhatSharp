@@ -1,0 +1,6 @@
+@WhatSharp.Srv_HostAddress = http://localhost:5202
+
+GET {{WhatSharp.Srv_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,6 +1,8 @@
-﻿namespace WhatSharp.Shared.DTO;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace WhatSharp.Shared.DTO;
 
 public class AddParticipantDto
 {
-    public int UserId { get; set; }
+    [Required] public int UserId { get; set; }
 }
